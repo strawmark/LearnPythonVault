@@ -1,0 +1,1 @@
+Per utilizzare al meglio questo vault, è consigliato fare il setup del plugin *Execute Code*, disponibile nella pagina di [[Setup dell'ambiente di sviluppo|setup dell'ambiente di sviluppo]] Python.
