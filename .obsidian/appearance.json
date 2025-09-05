@@ -1,5 +1,6 @@
 {
-  "cssTheme": "",
+  "cssTheme": "Atom",
   "monospaceFontFamily": "Cascadia Mono",
-  "accentColor": ""
+  "accentColor": "",
+  "theme": "system"
 }
