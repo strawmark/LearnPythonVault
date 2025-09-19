@@ -1,8 +1,6 @@
 ---
 tags:
-  - Dizionari
-  - Variabili
-  - Liste
+  - Teoria
 ---
 # Definizione
 

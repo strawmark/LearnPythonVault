@@ -1,8 +1,7 @@
 ---
 tags:
-  - Windows
-  - VSCode
   - GIT
+  - Windows
 ---
 #todo
 # Installazione su Windows

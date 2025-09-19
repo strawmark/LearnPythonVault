@@ -1,7 +1,6 @@
 ---
 tags:
-  - Funzioni
-  - Variabili
+  - Teoria
 ---
 # Definizione
 

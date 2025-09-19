@@ -1,7 +1,6 @@
 ---
 tags:
-  - "#VSCode"
-  - Obsidian
+  - Setup
   - Windows
 ---
 # Learn Python Vault

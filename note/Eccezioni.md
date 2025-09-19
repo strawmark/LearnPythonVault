@@ -1,7 +1,6 @@
 ---
 tags:
-  - Eccezioni
-  - File
+  - Teoria
 ---
 # Definizione
 

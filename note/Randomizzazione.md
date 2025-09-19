@@ -1,8 +1,6 @@
 ---
 tags:
-  - Funzioni
-  - Moduli
-  - Variabili
+  - Teoria
 ---
 
 Per generare numeri casuali posso utilizzare il [[Moduli|modulo]] random. Per utilizzarlo:

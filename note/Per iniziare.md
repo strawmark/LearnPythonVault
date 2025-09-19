@@ -1,8 +1,6 @@
 ---
 tags:
-  - Funzioni
-  - Variabili
-  - Classi
+  - Teoria
 ---
 ## Hello World
 
@@ -19,7 +17,7 @@ print('Hello World!') ## Hello World!
 ## Guida allo stile
 Il codice scritto in Python segue comunemente uno stile di scrittura per i nomi di funzioni, variabili e classi. A seconda di cosa si sta per scrivere, si utilizzerà lo snake case o il pascal case:
 ### Snake case
-Tutte le lettere sono minuscole, e se si ha necessità di usare più parole, queste vanno separate da simboli di *underscore* (`_`). Un esempio di uso di snake case è:
+Tutte le lettere sono minuscole, e se si ha necessità di usare più parole, queste vanno separate da simboli di *underscore* (`_`). Un esempio di uso di snake case per il nome di una variabile è:
 
 `{python icon title:}user_name='Marco'`
 

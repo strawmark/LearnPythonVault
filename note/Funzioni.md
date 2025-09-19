@@ -1,9 +1,6 @@
 ---
 tags:
-  - Funzioni
-  - Variabili
-  - String
-  - Dizionari
+  - Teoria
 ---
 # Usare una funzione
 
@@ -157,6 +154,8 @@ add(1, 2) # 3
 add(3,1) # 4
 ```
 
+Da notare c'è anche che `args` non è una parola riservata, al suo posto posso ad esempio usare `numbers` per indicare il nome della [[tupla]] dove voglio raccogliere tutti i numeri in ingresso.
+
 ### Keyword arguments (`**kwargs`)
 
 Con la keyword `**` (solitamente `**kwargs`) verrà creato un [[Dizionari|dizionario]] degli argomenti con nome (keyword arguments) in input alla funzione, molto utile per creare i [[Classi e Oggetti#Metodo costruttore|costruttori di una classe]]:
@@ -170,7 +169,7 @@ def calculate(**kwargs):
 calculate(add=2,multiply=4) # {'add':2,'multiply':4}
 ```
 
-Posso anche usare argomenti posizionali e argomenti infiniti:
+Posso anche usare argomenti posizionali assieme agli argomenti infiniti:
 
 ```python {label:'infargs3'}
 def calculate(n,**kwargs):
@@ -181,4 +180,41 @@ def calculate(n,**kwargs):
 
 ```run-python ln:false {import='infargs3'}    
 calculate(1,add=4,multiply=5) # 25
+```
+
+In questo caso, l'ordine di inserimento conta:
+
+1. Argomenti standard
+2. `*args`
+3. `**kwargs`
+
+**Esempio di funzione corretta**
+
+```python {label:'correct_func'}
+def my_function(a, b, *args, **kwargs):
+    print(f"{a}, {b}")
+    
+    for arg in args:
+        print(arg)
+    
+    for arg in kwargs.items():
+        print(f"{arg}")
+    
+    print("pass")
+```
+
+```run-python {import:'correct_func'}
+my_function(1, 2, 3, 4, 5, k=1, c=2)
+```
+
+**Esempio di funzione errata**
+
+```python {label:'wrong_func'}
+def my_function(a, b, **kwargs, *args):
+    print("pass")
+    pass
+```
+
+```run-python {import:'wrong_func'}
+my_function(1, 2, k=1, c=2, 3,4,5)
 ```

@@ -1,10 +1,6 @@
 ---
 tags:
-  - Classi
-  - Oggetti
-  - Funzioni
-  - Metodi
-  - Variabili
+  - Teoria
 ---
 # Definizione
 
@@ -42,7 +38,7 @@ class Car:
         self.model = kwargs.get('model')      
 ```
 
-```python ln:false {import='kwargsex'}
+```run-python ln:false {import='kwargsex'}
 c = Car(model='Nissan', seats = 4)
 
 print(c.model)

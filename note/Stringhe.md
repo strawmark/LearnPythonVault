@@ -1,11 +1,6 @@
 ---
 tags:
-  - String
-  - Funzioni
-  - Variabili
-  - Operatori
-  - Oggetti
-  - Metodi
+  - Teoria
 ---
 # Definizione
 

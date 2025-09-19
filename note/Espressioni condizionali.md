@@ -1,10 +1,6 @@
 ---
 tags:
-  - Metodi
-  - Funzioni
-  - Loop
-  - Operatori
-  - Variabili
+  - Teoria
 ---
 
 Sono espressioni utili al controllo del flusso di un programma in base al soddisfacimento o meno di determinate [[Operatori#Operatori logici|condizioni]].

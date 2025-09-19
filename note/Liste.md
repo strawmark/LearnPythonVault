@@ -1,10 +1,6 @@
 ---
 tags:
-  - Classi
-  - Liste
-  - Variabili
-  - Metodi
-  - Array
+  - Teoria
 ---
 # Definizione
 

@@ -1,8 +1,6 @@
 ---
 tags:
-  - File
-  - Funzioni
-  - Metodi
+  - Teoria
 ---
 
 È possibile gestire i file in più modi con [[Python]].
@@ -12,7 +10,7 @@ tags:
 
 ```python title:"Esempio di apertura di un file"
 filename="File.md"
-open(filename, mode='r', buffering=-1, encoding=None, newline=None, closefd=None, opener= None)
+open(filename, mode='r', buffering=-1, encoding=None, newline=None, opener= None)
 ```
 
 **Argomenti obbligatori**:
@@ -96,7 +94,7 @@ file.write('Testo')
 ~~~
 
 Aggiunge il contenuto al file. In caso di apertura con `'w'`,  anche non mettendo `file.write()` si eliminerà tutto il contenuto scritto in precedenza. `file.write()` successivi metteranno in coda nuovi dati, quindi non andrà aggiunto il contenuto tutto assieme.
-## Rimuovere file
+# Rimuovere file
 
 Importando il modulo `os` è possibile fare più operazioni con i file, come ad esempio cestinarli:
 

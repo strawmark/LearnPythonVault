@@ -1,6 +1,6 @@
 ---
 tags:
-  - Loop
+  - Teoria
 ---
 # For Loop
 
@@ -36,6 +36,16 @@ for number in range(1,11,3): # ogni 2
     print(number)
 ```
 
+> [!Warning] Attenzione
+> La funzione `range()` crea un intervallo di numeri il cui estremo finale non è incluso:
+> 
+> ```python title:"Limiti della funzione range()"
+> numbers = range(1,10)
+> print(*numbers)
+> ```
+> 
+> 
+
 # While Loop
 
 ~~~python title:"Sintassi del ciclo while"
@@ -44,3 +54,5 @@ while condition_is_true:
 ~~~
 
 #todo
+
+Break, continue

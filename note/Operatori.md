@@ -1,9 +1,6 @@
 ---
 tags:
-  - Variabili
-  - Loop
-  - Funzioni
-  - Operatori
+  - Teoria
 ---
 # Operatori aritmetici
 

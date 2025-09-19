@@ -1,8 +1,6 @@
 ---
 tags:
-  - Funzioni
-  - Variabili
-  - String
+  - Teoria
 ---
 
 La [[Funzioni|funzione]] `input()` attende l'inserimento di un valore da parte dell'utente.

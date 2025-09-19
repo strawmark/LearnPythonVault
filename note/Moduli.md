@@ -1,9 +1,6 @@
 ---
 tags:
-  - Classi
-  - Funzioni
-  - Variabili
-  - Moduli
+  - Teoria
 ---
 I **moduli** sono collezioni di [[Funzioni|funzioni]], [[Variabili|variabili]] e [[Classi e Oggetti|classi]] che possono essere importati nel codice per essere utilizzati, generando una dipendenza in fase di compilazione:
 
