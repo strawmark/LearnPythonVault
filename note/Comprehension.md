@@ -2,7 +2,6 @@
 tags:
   - Teoria
 ---
-
 # List Comprehension
 
 Si possono creare delle [[Liste|liste]] in una maniera sintatticamente più veloce di un [[Cicli|loop]]:

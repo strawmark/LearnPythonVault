@@ -4,7 +4,7 @@ tags:
 ---
 ## Consegna
 
-Scrivi un programma che chieda all'utente un numero e che stampi a schermo se il numero dato è pari o dispari.
+Scrivi un programma che[[Input da utente| chieda all'utente]] un numero e che stampi a schermo se il numero dato è [[Operatori|pari o dispari]].
 ## Extra
 
 1. Aggiungi anche un messaggio aggiuntivo che dica se il numero è anche un multiplo di 4

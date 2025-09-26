@@ -79,3 +79,7 @@ print(user2.username)
 print(user2.followers)
 print(user2.following)
 ```
+
+# 
+
+Se crei una tua classe, puoi definire come funziona `==` implementando il metodo speciale `__eq__`.

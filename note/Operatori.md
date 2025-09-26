@@ -49,6 +49,27 @@ Utili per deviare il flusso del codice a seconda della presenza di condizioni pa
 |   **NOT**    | Bitwise NOT | `~`     | Inverte tutti i bit (attenzione ai numeri negativi in complemento a due) |
 | **SHIFT SX** | Shift left  | `<<`    | Sposta i bit a sinistra (moltiplica per potenze di 2)                    |
 | **SHIFT DX** | Shift right | `>>`    | Sposta i bit a destra (divide per potenze di 2)                          |
+# Operatori di confronto
+
+| Operatore | Nome                |
+| :-------: | ------------------- |
+|  **==**   | uguale a            |
+|    !=     | diverso da          |
+|     >     | maggiore di         |
+|     <     | minore di           |
+|    >=     | maggiore o uguale a |
+|    <=     | minore o uguale a   |
+# Operatori di identità
+
+| Operatore  | Funzione                                                            |
+| :--------: | ------------------------------------------------------------------- |
+|   **is**   | Verifica se le due variabili sono lo stesso elemento in memoria     |
+| **is not** | Verifica se le due variabili non sono lo stesso elemento in memoria |
+# Operatori di appartenenza
+| Operatore  | Funzione                                                                                                 |
+| :--------: | -------------------------------------------------------------------------------------------------------- |
+|   **in**   | Verifica se l'elemento è dentro una sequenza ([[Liste\|lista]], [[Stringhe\|stringa]], [[Array\|array]]) |
+| **not in** | Verifica se l'elemento non è presente in una sequenza                                                    |
 # Concatenazione delle stringhe
 
 L'operatore `+` viene utilizzato per [[Stringhe#Concatenazione|concatenare due stringhe tra loro]].

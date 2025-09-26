@@ -4,3 +4,4 @@
 - [ ] [[Esercizio - Lista e sottolista|Lista e sottolista]]
 - [ ] [[Esercizio - Divisori|Divisore]]
 - [ ] [[Esercizio - Intersezione di due liste|Intersezione di due liste]]
+- [ ] [[Esercizio - Liste di stringhe|Liste di stringhe]]
