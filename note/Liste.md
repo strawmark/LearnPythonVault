@@ -130,8 +130,8 @@ Lasciando vuoti gli argomenti di inizio, fine o passo, verranno utilizzati i val
 ```python title:"Esempio slicing con argomenti vuoti"
 Lista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(Lista[::])  # Tutta la lista -> [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(Lista[2::]  # Dal terzo elemento (indice 2) alla fine -> [3, 5, 6, 7, 8, 9]
-print(Lista[::2]  # Dall'inizio alla fine, un elemento ogni 2 -> [1, 3, 5, 7, 9]
+print(Lista[2::])  # Dal terzo elemento (indice 2) alla fine -> [3, 4, 5, 6, 7, 8, 9]
+print(Lista[::2])  # Dall'inizio alla fine, un elemento ogni 2 -> [1, 3, 5, 7, 9]
 print(Lista[::-1])  # Tutta la lista, al contrario -> [9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 

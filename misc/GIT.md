@@ -2,7 +2,6 @@
 tags:
   - GIT
 ---
-#todo
 # Tabella rapida comandi
 
 | Comando                              | Descrizione                         |
@@ -25,8 +24,7 @@ tags:
 ## Init
 Per avviare un versione control e controllare il suo status attuale:
 
-
-```git title:"Inizializzare una repository"
+```bash title:"Inizializzare una repository"
 git init
 git status
 ```
@@ -34,7 +32,7 @@ git status
 ## Commit
 Per aggiungere tutti i file al commit e avviare:
 
-```git
+```bash
 git add .
 git commit -m "messaggio"
 ```
@@ -42,27 +40,27 @@ git commit -m "messaggio"
 
 Per il merge bisogna passare al branch al quale vogliamo aggiungere i contenuti di un altro branch:
 
-```git
+```bash
 git checkout master
 git merge feature
 ```
 ## Reset
 
-```git
+```bash
 git reset --hard HEAD~1
 ```
 ## Delete
 
 Bisogna cambiare branch rispetto a quella che bisogna cancellare
 
-```git
+```bash
 git checkout master
 git branch -D feature
 ```
 
 ## Github e simili
 
-```git
+```bash
 git remote add origin URL
 git push -u origin nomebranch
 ```
@@ -79,7 +77,7 @@ git push -u origin nomebranch
 
 ### Clone
 
-```git
+```bash
 git clone URL
 cd cartella_repository
 ```
@@ -88,7 +86,7 @@ cd cartella_repository
 
 Per aggiungere il commit alla repository esterna:
 
-```git
+```bash
 git push origin main
 ```
 
@@ -96,14 +94,14 @@ Sarà necessario aggiungere le credenziali per confermare.
 
 Per **Gitea**:
 
-```git
+```bash
 git remote set-url origin http://strawmark:<token>@stream.iliadboxos.it/gitea/<user>/<repo>.git`
 ```
 ### Pull
 
 Per portare cambiamenti della repository remota all'interno della repository locale:
 
-```git
+```bash
 git pull
 ```
 
@@ -113,7 +111,7 @@ git pull
 
 Si verifica quando i due repository (locale e remoto) hanno storie diverse e non correlabili. Per risolverlo, posso aggiungere a `git pull` il flag `--allow-unrelated-histories`:
 
-```git
+```bash
 git pull origin master --allow-unrelated-histories
 git add <file_conflittato>
 git commit -m "Risolti conflitti da storie non correlate"
@@ -124,10 +122,30 @@ git push origin master
 
 Per rimuovere dal repository remoto i file che ora sono ignorati dal tuo `.gitignore`, posso seguire questi passaggi:
 
-```git
+```bash
 git rm --cached <file_o_cartella>
 git commit -m "Rimosso file ignorati dal remote"
 git push origin nomebranch
 ```
 
 Questi file verranno rimossi dal repository remoto, ma rimarranno localmente sul computer. Il file `.gitignore` garantirà che Git non li tracci più.
+
+#### Cherry-pick
+
+Se ho due branch: quella principale (`main`) e una dove ho fatto un commit da riportare sulla principale (`new-feature`). Il commit di `new-feature` avrà un hash, ad esempio `abc123`.
+
+```bash
+git checkout main
+git cherry-pick abc123
+```
+
+- `checkout main` sposta git verso `main`
+- `cherry-pick abc123` Applica il commit `abc123`, generato su `new-feature`, alla branch `main`
+- Git crea una nuova commit su `main` con gli stessi cambiamenti
+
+Se ci sono conflitti Git crea un avviso e bisognerà risolverli manualmente. Dopo averli risolti:
+
+```bash
+git add .
+git cherry-pick --continue
+```

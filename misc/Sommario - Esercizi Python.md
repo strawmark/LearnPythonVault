@@ -1,3 +1,9 @@
+---
+tags:
+  - esercizi
+  - Teoria
+---
+## Esercizi di teoria
 
 - [ ] [[Esercizio - Input utente|Input utente]]
 - [ ] [[Esercizio - Pari o dispari|Pari o dispari]]

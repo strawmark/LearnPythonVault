@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note/Funzioni decorator.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funzioni decorator"
+              "title": "README"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note/Funzioni decorator.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di Funzioni decorator"
+              "title": "Struttura di README"
             }
           }
         ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "note/Funzioni decorator.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -201,7 +201,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Grafo di Funzioni decorator"
+              "title": "Grafo di README"
             }
           },
           {
@@ -233,25 +233,20 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "note/Sommario.md",
-    "note/File.md",
-    "HTTP Requests.md",
-    "misc/GIT.md",
-    "README.md",
-    "note/Funzioni decorator.md",
-    "note/Liste.md",
-    "note/Cicli.md",
-    "note/Espressioni condizionali.md",
-    "note/Flask Routing.md",
-    "note/Randomizzazione.md",
-    "note/Classi e Oggetti.md",
-    "Ospitare pagine web con Flask.md",
-    "~syncthing~HTTP Requests.md.tmp",
     "Tkinter.md",
     "~syncthing~Tkinter.md.tmp",
+    "HTTP Requests.md",
+    "~syncthing~HTTP Requests.md.tmp",
     "note/Funzioni.md",
+    "note/Sommario.md",
+    "note/Flask Routing.md",
+    "Ospitare pagine web con Flask.md",
     "note/Sommario - Flask.md",
+    "README.md",
+    "note/Funzioni decorator.md",
     "note/Flask Hello World.md",
+    "note/Cicli.md",
+    "note/Liste.md",
     "note/Date.md",
     "note/Dizionari.md",
     "Routing.md",
@@ -261,6 +256,11 @@
     "misc/Setup dell'ambiente di sviluppo.md",
     "misc/Sommario - Esercizi Python.md",
     "esercizi/Esercizio - Lista e sottolista.md",
+    "esercizi/Esercizio - Input utente.md",
+    "note/Randomizzazione.md",
+    "misc/Introduzione a GIT.md",
+    "Setup di Flask.md",
+    "note/Front-end e back-end.md",
     "template",
     "esercizi",
     "note/file.txt",

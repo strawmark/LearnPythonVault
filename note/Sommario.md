@@ -10,6 +10,7 @@
     2. [[Operatori|Operatori]]
 4. [[Stringhe|Stringhe]]
 5. [[Funzioni|Funzioni]]
+    1. [[Funzioni decorator]]
 6. [[Moduli|Moduli]]
 7. [[Randomizzazione|Randomizzazione]]
 8. [[Espressioni condizionali]]
@@ -22,15 +23,20 @@
 15. [[Comprehension|Comprehension]]
 16. [[Eccezioni|Eccezioni]]
 # Altro
+
 1. [[README]]
 2. [[HTTP Requests]] TODO
 3. [[Tkinter]] TODO
 4. [[BeautifulSoup]] TODO
 5. [[Selenium WebDriver]] TODO
 ## GIT
+
 1. [[Introduzione a GIT]]
 2. [[GIT|Cheat sheet]] 
+
+![[Sommario - Flask#Flask|Flask]]
 # Esercizi
-[[Esercizi Python|Esercizi Python]]
+
+![[Sommario - Esercizi Python#Esercizi di teoria|Esercizi di teoria su Python]]
 
 ----
